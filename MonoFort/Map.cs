@@ -39,11 +39,11 @@ namespace MonoFort
             }
         }
 
-        public void Update(GameTime gameTime)
+        public void Update(GameTime gameTime, ref Player player)
         {
             foreach (var layer in Layers)
             {
-                layer.Update(gameTime);
+                layer.Update(gameTime, ref player);
             }
         }
 

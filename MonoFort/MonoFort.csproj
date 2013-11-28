@@ -186,6 +186,9 @@
     <Content Include="Content\Graphics\playerBlue.xnb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\Graphics\terrains1.xnb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="MonoFort_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

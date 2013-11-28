@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-11-26T04:54:17.310</Modified>
+      <Modified>2013-11-28T18:28:42.857</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\MonoFort.exe">
       <PackagePath>MonoFort.exe</PackagePath>
-      <Modified>2013-11-26T05:03:16.635</Modified>
+      <Modified>2013-11-28T20:21:38.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\MonoFort.pdb">
       <PackagePath>MonoFort.pdb</PackagePath>
-      <Modified>2013-11-26T05:03:16.583</Modified>
+      <Modified>2013-11-28T20:21:38.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>
@@ -84,9 +84,13 @@
       <PackagePath>Content\Graphics\playerBlue.xnb</PackagePath>
       <Modified>2013-11-25T01:45:04.714</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Content\Graphics\terrains1.xnb">
+      <PackagePath>Content\Graphics\terrains1.xnb</PackagePath>
+      <Modified>2013-11-28T20:03:30.986</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\Map\Map1.xml">
       <PackagePath>Load\Map\Map1.xml</PackagePath>
-      <Modified>2013-11-26T05:00:24.208</Modified>
+      <Modified>2013-11-28T19:47:35.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\Player.xml">
       <PackagePath>Load\Player.xml</PackagePath>
@@ -142,7 +146,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-11-26T04:54:17.053</Modified>
+      <Modified>2013-11-28T18:28:42.443</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

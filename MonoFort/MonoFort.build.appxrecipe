@@ -61,6 +61,9 @@
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Content\Graphics\playerBlue.xnb">
       <PackagePath>Content\Graphics\playerBlue.xnb</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Content\Graphics\terrains1.xnb">
+      <PackagePath>Content\Graphics\terrains1.xnb</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\Map\Map1.xml">
       <PackagePath>Load\Map\Map1.xml</PackagePath>
     </AppxPackagedFile>
