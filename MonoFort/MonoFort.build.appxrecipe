@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CATDENLD5FJTM1</Machine>
+    <WindowsUser>mkniffen</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\MonoFort.exe">
+      <PackagePath>MonoFort.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\MonoFort.pdb">
+      <PackagePath>MonoFort.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
+      <PackagePath>MonoGame.Framework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.MediaFoundation.dll">
+      <PackagePath>SharpDX.MediaFoundation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XInput.dll">
+      <PackagePath>SharpDX.XInput.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Content\SplashScreen\mainMenu.xnb">
+      <PackagePath>Content\SplashScreen\mainMenu.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Content\Graphics\player.xnb">
+      <PackagePath>Content\Graphics\player.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Content\Graphics\gameFont.xnb">
+      <PackagePath>Content\Graphics\gameFont.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Content\Graphics\FadeImage.xnb">
+      <PackagePath>Content\Graphics\FadeImage.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Content\Graphics\MainSplash.xnb">
+      <PackagePath>Content\Graphics\MainSplash.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Content\Graphics\playerBlue.xnb">
+      <PackagePath>Content\Graphics\playerBlue.xnb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\Map\Map1.xml">
+      <PackagePath>Load\Map\Map1.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\Player.xml">
+      <PackagePath>Load\Player.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\TestMenu.xml">
+      <PackagePath>Load\TestMenu.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\ScreenManager.xml">
+      <PackagePath>Load\ScreenManager.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\SplashScreen.xml">
+      <PackagePath>Load\SplashScreen.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\TitleMenu.xml">
+      <PackagePath>Load\TitleMenu.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\GamePage.xaml">
+      <PackagePath>GamePage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

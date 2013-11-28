@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SplashScreen>
+  <Image>
+    <Path>Graphics\MainSplash</Path>
+    <Position>
+      <X>120</X>
+      <Y>90</Y>
+    </Position>
+    <Scale>
+      <X>1.0</X>
+      <Y>1.0</Y>
+    </Scale>
+  </Image>
+</SplashScreen>
