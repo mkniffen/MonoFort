@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\MonoFort.exe">
       <PackagePath>MonoFort.exe</PackagePath>
-      <Modified>2013-11-28T20:21:38.287</Modified>
+      <Modified>2013-11-28T20:54:18.700</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\MonoFort.pdb">
       <PackagePath>MonoFort.pdb</PackagePath>
-      <Modified>2013-11-28T20:21:38.258</Modified>
+      <Modified>2013-11-28T20:54:18.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>
@@ -90,7 +90,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\Map\Map1.xml">
       <PackagePath>Load\Map\Map1.xml</PackagePath>
-      <Modified>2013-11-28T19:47:35.656</Modified>
+      <Modified>2013-11-28T20:45:43.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\mwk\prj\GitHub\MonoFort\MonoFort\Load\Player.xml">
       <PackagePath>Load\Player.xml</PackagePath>

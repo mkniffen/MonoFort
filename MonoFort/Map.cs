@@ -47,11 +47,11 @@ namespace MonoFort
             }
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, string drawType)
         {
             foreach (var layer in Layers)
             {
-                layer.Draw(spriteBatch);
+                layer.Draw(spriteBatch, drawType);
             }
         }
 

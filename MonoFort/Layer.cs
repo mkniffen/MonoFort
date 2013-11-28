@@ -27,16 +27,17 @@ namespace MonoFort
         [XmlElement("TileMap")]
         public TileMap Tiles;
         public Image Image;
-        List<Tile> tiles;
-        public string SolidTiles;
+        List<Tile> underlayTiles, overlayTiles;
+        public string SolidTiles, OverlayTiles;
         string state;
 
 
         public Layer()
         {
             Image = new Image();
-            tiles = new List<Tile>();
-            SolidTiles = string.Empty;
+            underlayTiles = new List<Tile>();
+            overlayTiles = new List<Tile>();
+            SolidTiles = OverlayTiles = string.Empty;
         }
 
         public void LoadContent(Vector2 tileDimensions)
@@ -60,7 +61,7 @@ namespace MonoFort
                         if (!s.Contains("x"))
                         {
                             state = "Passive";
-                            tiles.Add(new Tile());
+                            Tile tile = new Tile();
 
                             string str = s.Replace("[", string.Empty);
                             int value1 = int.Parse(str.Substring(0, str.IndexOf(':')));
@@ -71,9 +72,18 @@ namespace MonoFort
                                 state = "Solid";
                             }
 
-                            tiles[tiles.Count - 1].LoadContent(position, new Rectangle(
+                            tile.LoadContent(position, new Rectangle(
                                 value1 * (int)tileDimensions.X, value2 * (int)tileDimensions.Y,
                                 (int)tileDimensions.X, (int)tileDimensions.Y), state);
+
+                            if (OverlayTiles.Contains("[" + value1.ToString() + ":" + value2.ToString() + "]"))
+                            {
+                                overlayTiles.Add(tile);
+                            }
+                            else
+                            {
+                                underlayTiles.Add(tile);
+                            }
                         }
                     }
                 }
@@ -87,14 +97,30 @@ namespace MonoFort
 
         public void Update(GameTime gameTime, ref Player player)
         {
-            foreach (var tile in tiles)
+            foreach (var tile in underlayTiles)
+            {
+                tile.Update(gameTime, ref player);
+            }
+
+            foreach (var tile in overlayTiles)
             {
                 tile.Update(gameTime, ref player);
             }
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, string drawType)
         {
+            List<Tile> tiles;
+
+            if (drawType == "Underlay")
+            {
+                tiles = underlayTiles;
+            }
+            else
+            {
+                tiles = overlayTiles;
+            }
+            
             foreach (var tile in tiles)
             {
                 Image.Position = tile.Position;
