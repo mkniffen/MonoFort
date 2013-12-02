@@ -29,21 +29,31 @@
         private void InitializeComponent()
         {
             this.editor1 = new TileMapEditor.Editor();
+            this.tileDisplay1 = new TileMapEditor.TileDisplay(ref editor1);
             this.SuspendLayout();
             // 
             // editor1
             // 
             this.editor1.Location = new System.Drawing.Point(13, 13);
             this.editor1.Name = "editor1";
-            this.editor1.Size = new System.Drawing.Size(727, 584);
+            this.editor1.Size = new System.Drawing.Size(640, 480);
             this.editor1.TabIndex = 0;
             this.editor1.Text = "editor1";
+            // 
+            // tileDisplay1
+            // 
+            this.tileDisplay1.Location = new System.Drawing.Point(660, 12);
+            this.tileDisplay1.Name = "tileDisplay1";
+            this.tileDisplay1.Size = new System.Drawing.Size(320, 480);
+            this.tileDisplay1.TabIndex = 1;
+            this.tileDisplay1.Text = "tileDisplay1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(947, 609);
+            this.ClientSize = new System.Drawing.Size(986, 505);
+            this.Controls.Add(this.tileDisplay1);
             this.Controls.Add(this.editor1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -54,6 +64,7 @@
         #endregion
 
         private Editor editor1;
+        private TileDisplay tileDisplay1;
     }
 }
 

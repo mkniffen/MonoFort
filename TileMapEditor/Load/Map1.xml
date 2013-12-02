@@ -6,7 +6,7 @@
   </TileDimensions>
   <Layer>
     <Image>
-      <Path>terrains1</Path>
+      <Path>Graphics/terrains1</Path>
     </Image>
     <TileLayout>
       <Row>[0:0][0:0][0:0][1:0][1:0][1:0][1:0][0:0][0:0][0:0][0:0][0:0][0:0][0:0]</Row>
@@ -25,7 +25,7 @@
   </Layer>
   <Layer>
     <Image>
-      <Path>terrains1</Path>
+      <Path>Graphics/terrains1</Path>
     </Image>
     <SolidTiles>[5:1][5:2]</SolidTiles>
     <OverlayTiles>[5:0]</OverlayTiles>

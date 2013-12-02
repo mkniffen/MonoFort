@@ -26,6 +26,11 @@ namespace TileMapEditor
         public TileMap TileLayout;
         public Image Image;
 
+        public Vector2 TileDimensions
+        {
+            get { return tileDimensions; }
+        }
+
         public Layer()
         {
             tileDimensions = new Vector2();
@@ -67,7 +72,7 @@ namespace TileMapEditor
             {
                 for (int j = 0; j < tileMap[i].Count; j++)
                 {
-                    if (tileMap[i][j] != Vector2.One)
+                    if (tileMap[i][j] != -Vector2.One)
                     {
                         Image.Position = new Vector2(j * tileDimensions.X, i * tileDimensions.Y);
                         Image.SourceRect = new Rectangle((int)(tileMap[i][j].X * tileDimensions.X),
@@ -78,6 +83,9 @@ namespace TileMapEditor
                     }
                 }
             }
+
+            Image.Position = Vector2.Zero;
+            Image.SourceRect = Image.Texture.Bounds;
         }
     }
 }
